@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Cormorant");
+
+body{
+background:#cffbff;
+}
+
+h1{
+text-align:center;
+color:#0a3f9a;
+font-weight:700;
+font-family:'Tangerine',serif;
+font-size:60px;
+}
+
+h3{
+font-weight:300;
+font-family:'Cormorant',serif;
+}
+
+.textt{
+width:70%;
+margin-left:1vh;
+}
+
+button{
+margin-left:2vh;
+width:150px;
+margin-bottom:5vh;
+}
+
+button:hover{
+background:#a910e8 !important;
+border-radius:10px !important;
+}

@@ -1,0 +1,190 @@
+<?php
+if(isset($_GET['kycDone'])){
+header("Location:user.html");
+retrun;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<link rel="icon" href="images/v-icon.png">
+
+<title>Vintelliguide KYC Page</title>
+
+<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/kyc.css">
+
+</head>
+<body>
+
+<h1>VGuides KYC</h1>
+
+<p>Hello dear user!!!We are excited to have you with us.Please  tell us a little about yourself,so that we can give the best experience :)</p>
+
+<h3>OPEN UP A BIT!</h3>
+<br>
+
+<div>
+<form>
+
+  <div class="form-group">
+    <label for="InputEmail"><h5>Email address</h5></label>
+    <input type="email" class="form-control textt" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+ <div class="form-group">
+ <h5>Please select your age group</h5><br>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios1" value="option1">
+  <label class="form-check-label" for="ageRadios1">
+    Less than 20 years old
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios2" value="option2" checked>
+  <label class="form-check-label" for="ageRadios2">
+    20 to 30 years old
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios3" value="option3">
+  <label class="form-check-label" for="ageRadios3">
+    30 to 50 years old
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="ageRadios" id="ageRadios4" value="option4">
+  <label class="form-check-label" for="ageRadios4">
+    More than 50 years old
+  </label>
+</div>
+</div>
+
+<div class="form-group">
+<h5>What is your current working status?</h5>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="workRadios" id="workRadios1" value="student">
+  <label class="form-check-label" for="workRadios1">
+    Student
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="workRadios" id="workRadios2" value="worker" checked>
+  <label class="form-check-label" for="workRadios2">
+    Working/entrepreneur class
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="workRadios" id="workRadios3" value="retired">
+  <label class="form-check-label" for="workRadios3">
+    Retired/on break
+  </label>
+</div>
+</div>
+
+<div class="form-group">
+<h5>With whom do you generally travel?</h5>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="partnerRadios" id="partnerRadios1" value="solo">
+  <label class="form-check-label" for="partnerRadios1">
+    SOLO
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="partnerRadios" id="partnerRadios2" value="spouse" checked>
+  <label class="form-check-label" for="partnerRadios2">
+    Couple/spouse
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="partnerRadios" id="partnerRadios3" value="friends">
+  <label class="form-check-label" for="partnerRadios3">
+    Friends
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="partnerRadios" id="partnerRadios4" value="family">
+  <label class="form-check-label" for="partnerRadios4">
+    Family
+  </label>
+</div>
+</div>
+
+<div class="form-group">
+    <label for="inputNationality"><h5>Nationality</h5></label>
+    <input type="text" class="form-control textt" id="inputNationality" aria-describedby="yourCountry" placeholder="Your Nationality" pattern="[A-Za-z]">
+  </div>
+
+<div class="form-group">
+    <label for="inputResidency"><h5>Residence City</h5></label>
+    <input type="text" class="form-control textt" id="inputResidency" aria-describedby="yourCity" placeholder="Enter city of Residence" pattern="[A-Za-z0-9]">
+  </div>
+
+<div class="form-group">
+<h5>Interested Traveling Categories</h5>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="historical" id="Check1" name="destCategories">
+  <label class="form-check-label" for="Check1">
+    Historical
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="hillStations" id="Check2" name="destCategories">
+  <label class="form-check-label" for="Check2">
+    Hill Stations
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="honeymoon" id="Check3" name="destCategories">
+  <label class="form-check-label" for="Check3">
+    Couple/Honeymoon 
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="nationalParks" id="Check4" name="destCategories">
+  <label class="form-check-label" for="Check4">
+    National Parks
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="beaches" id="Check5" name="destCategories">
+  <label class="form-check-label" for="Check5">
+    Beaches
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="waterfalls" id="Check6" name="destCategories">
+  <label class="form-check-label" for="Check6">
+    Waterfalls
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="nationalHeritages" id="Check7" name="destCategories">
+  <label class="form-check-label" for="Check7">
+    Monuments of National Heritage
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="metrocities" id="Check8" name="destCategories">
+  <label class="form-check-label" for="Check8">
+    Metropolitian Cities
+  </label>
+</div>
+</div>
+
+ <button type="submit" name="kycDone" class="btn btn-primary">Submit</button>
+
+</form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>

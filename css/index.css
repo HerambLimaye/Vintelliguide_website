@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+
+.headerrr{
+border-bottom:3px solid black;
+background:rgba(199,234,70,0.8);
+padding:1%;
+height:15vh;
+}
+ 
+header img{
+display:inline-block;
+float:left;
+width:150px;
+}
+
+@media screen and (min-width:900px)
+{
+header img{
+width:10%;
+}
+}
+
+nav li{
+margin-right:2vh;
+}
+
+@media screen and (min-width:1270px)
+{
+nav li{
+margin-right:8vh;
+}
+}
+
+nav{
+display:inline-block;
+float:left;
+width:50%;
+margin-left:20px;
+}
+
+@media screen and (min-width:900px)
+{
+nav{
+width:75%;
+margin-left:100px;
+}
+}
+
+header .btn{
+margin-top:1%;
+margin-left:15%;
+background:#0047AB;
+color:#FFFFFF;
+}
+
+header .btn:hover{
+background:#E2FCFF;
+color:#000000;
+}
+
+.navss{
+margin-top:1%;
+background:#556B2F;
+border-radius:10%;
+color:#FFFFFF;
+font-size:18px;
+}
+
+body{
+padding-top:16vh;
+}
+
+.containerr{
+background-image:url('https://cdn.pixabay.com/photo/2019/05/09/15/08/jungle-4191340_1280.jpg');
+display:none;
+}
+
+.srhsec{
+height:80vh;
+background-image:url("https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+#search div div{
+overflow:auto;
+}
+
+h1{
+margin-top:20vh;
+text-align:center;
+font-size:60px;
+color:#ff9000;
+font-weight:bolder;
+font-family:'Lobster',serif;
+text-shadow:2px 2px black;
+}
+
+.placeIn{
+display:inline-block;
+width:50vw;
+margin-left:25vw;
+margin-top:10vh;
+height:50px;
+font-size:35px;
+}
+
+.srhbtn{
+diplay:inline-block;
+width:50vw;
+margin-left:25vw;
+background:#FFA500;
+font-size:20px;
+}
+
+form button:hover{
+background-color:#F4C2C2;
+}
+
+h2{
+background:#800080;
+color:#FFFFFF;
+}
+
+.dest{
+margin-top:10vh;
+}
+
+.revi{
+margin-top:5vh;
+}
+
+.dest div img{
+width:100%;
+height:85%;
+}
+.dest h4{
+text-align:center;
+font-style:italic;
+color:#8D021F;
+}
+
+td{
+margin:3px;
+}
+.social_links .instagram{
+color:#800080
+}
+
+.social_links .youtube{
+color:#FF0000
+}
+
+.social_links{
+padding-left:10px;
+padding-left:10px;
+}
+
+.social_links li{
+margin-right:20px;
+}
+.sze{
+font-size:22px;
+
+}
+footer img{
+width:200px;
+margin:25vw;
+margin-bottom:3vw;
+}
+@media screen and (min-width:720px){
+#address{
+display:inline-block;
+float:left;
+margin-left:5vh;
+margin-top:3vh;
+}
+footer img{
+diplay:inline-block;
+float:left;
+width:15%;
+margin:25px;
+}
+#contactUs{
+display:inline-block;
+margin-left:5vw;
+margin-top:3vh;
+}
+#cright{
+display:block;
+}
+
+.icon1{
+margin-left:5vw;
+}
+
+#socialMedia{
+margin-top:8vh;
+}
+}
+
+footer{
+background:#8599AD;
+}
+
+#reviews h4,#reviews h5{
+text-align:center;
+font-style:italic;
+color:#0047AB;
+}
+
+
