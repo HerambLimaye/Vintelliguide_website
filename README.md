@@ -1,6 +1,6 @@
 # Vintelliguide_website
 
-https://github.com/Vintelliguide/Vintelliguide_website/blob/main/Screenshot%20(218).png
+![screenshot][https://github.com/Vintelliguide/Vintelliguide_website/blob/main/Screenshot%20(218).png]
 
 https://github.com/Vintelliguide/Vintelliguide_website/blob/main/Screenshot%20(219).png
 
